@@ -47,6 +47,6 @@ app.get('/api/v1/query',(req,res)=>{
     res.status(200).json(sortedProducts)
     })
 
-app.listen(5000, ()=>{
-    console.log('server is listening on port 5000...')
-})
+    app.listen(5000,()=>{
+        console.log('server is listening on port 5000...')
+    })
